@@ -101,5 +101,11 @@ public class InMemoryProductRepository implements ProductRepository{
 		
 		return productsByCategory;
 	}
+
+	public void addProduct(Product product) {
+		// TODO Auto-generated method stub
+		
+		listOfProducts.add(product);
+	}
 }
 
